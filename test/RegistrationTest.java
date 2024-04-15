@@ -31,6 +31,7 @@ public class RegistrationTest {
         Boolean result = instance.userNameCheck(username);
         
         assertTrue(result);
+        
     }
     @Test
     public void testValidUser() 
