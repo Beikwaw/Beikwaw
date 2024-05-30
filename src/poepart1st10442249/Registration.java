@@ -57,7 +57,7 @@ public class Registration
     {
        return userFirstName;
     }
-    
+    //__________________________________________________________________________Getters and setters for Sign In ___________________________________________________
    public Boolean CreateUserPassword() 
    {
         Boolean valid = true;
@@ -93,7 +93,7 @@ public class Registration
        
        return valid;
     }  
-   
+//______________________________________________________________________________Password complexity check_________________________________________________________   
    
    public boolean checkPasswordComplexity(String password){
        Boolean containCapital = false;
@@ -117,7 +117,7 @@ public class Registration
                 if (containSpecial && containNumber && containCapital) 
                     return true;
                 else return false;
-                            
+ //____________________________________________________________________________Username conditions__________________________________________________________________                           
    }
     public void CreateUserName() 
     {
@@ -159,7 +159,7 @@ public class Registration
         return valid;
     }
 }
-    
+
 
     
     

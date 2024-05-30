@@ -19,7 +19,7 @@ public class RegistrationTest {
         String password = "Ch&&sec@ke99!";
         Boolean result = instance.checkPasswordComplexity(password);
         
-        assertTrue(result); // Assuming valid password is entered
+        assertTrue(result); // Assuming valid password is entered correctly
     }
     
     @Test

@@ -47,5 +47,31 @@ public class ProgramTest {
         // TODO review the generated test code and remove the default call to fail.
        
     }
+
+    /**
+     * Test of Menu method, of class Program.
+     */
+    @Test
+    public void testMenu() {
+        System.out.println("Menu");
+        Program instance = new Program();
+        int expResult = 0;
+        int result = instance.Menu();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+      
+    }
+
+    /**
+     * Test of GetTaskData method, of class Program.
+     */
+    @Test
+    public void testGetTaskData() {
+        System.out.println("GetTaskData");
+        Program instance = new Program();
+        instance.GetTaskData();
+        // TODO review the generated test code and remove the default call to fail.
+        
+    }
     
 }
